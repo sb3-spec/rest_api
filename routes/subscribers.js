@@ -1,6 +1,5 @@
 const express = require('express')
 const { rawListeners } = require('../models/subscriber')
-const subscriber = require('../models/subscriber')
 const router = express.Router()
 const Subscriber = require('../models/subscriber')
 
